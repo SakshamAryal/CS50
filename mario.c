@@ -1,12 +1,12 @@
 #include <stdio.h>
-#include <cs50.h>
 
 int main(void)
 {
     int i = 0, n, j, k = 0;
     do
     {
-        n = get_int("Enter a positive integer from 1-8: ");
+        printf("Enter a positive integer from 1-8: ");
+        scanf("%d", &n);
     } while (n < 1 || n > 8);
     j = n;
     while (i < n)
