@@ -10,15 +10,15 @@ int is_visa13(long vi);
 
 int main(void)
 {
+
     int comparision;
     long long card;
-    long long check2 = 9999999999;
+
     do
     {
         printf("Number: ");
         scanf("%lld", &card);
-        printf("%lld", card);
-    } while (card < check2);
+    } while (card < 9999999999);
 
     long k = 10;
     long rem = 0, total1 = 0, total2 = 0, final, check = 10;
