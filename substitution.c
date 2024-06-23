@@ -3,9 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-// firt take input from the user
-// then assign the key to the user input
-// to assign user input to the
+
 int main(int argc, char *argv[])
 {
 
