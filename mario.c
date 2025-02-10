@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    int i = 0, n, j, k = 0;
+    int i = 0, n, j;
     do
     {
         printf("Enter a positive integer from 1-8: ");
@@ -26,16 +26,17 @@ int main(void)
             else if (j == 0)
             {
                 printf("  ");
-                k++;
             }
-            else if (k <= i)
+            else if ( j < 0 && j >= -i)
             {
                 printf("#");
-                k++;
+            }
+            else
+            {
+              break;
             }
             j--;
         }
-        k = 0;
         j = n;
         printf("\n");
     }
